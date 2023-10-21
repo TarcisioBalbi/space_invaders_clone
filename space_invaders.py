@@ -4,8 +4,6 @@ import time
 import math
 from decimal import *
 
-if False:
-    import pygame._view
 pygame.init()
 getcontext().prec = 3
 
@@ -20,10 +18,10 @@ altura = 600
 screen = pygame.display.set_mode((largura,altura))
 
 pygame.display.set_caption("Space Invaders")
-icon = pygame.image.load('logo.png')
+icon = pygame.image.load('assets/logo.png')
 pygame.display.set_icon(icon)
 
-BG = pygame.image.load('background.png')
+BG = pygame.image.load('assets/background.png')
 
 #Score
 
@@ -34,7 +32,7 @@ textY = 10
 
 
 #Player
-playerImg = pygame.image.load('player.png')
+playerImg = pygame.image.load('assets/player.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -50,14 +48,14 @@ enemyY_change = []
 num_enemies = 6
 
 for i in range(num_enemies):
-    enemyImg.append(pygame.image.load('enemy.png'))
+    enemyImg.append(pygame.image.load('assets/enemy.png'))
     enemyX.append(random.randint(32,750))
     enemyY.append(32)
     enemyX_change.append(3)
     enemyY_change.append(20)
 
 #Bullet
-bulletImg = pygame.image.load('bullet.png')
+bulletImg = pygame.image.load('assets/bullet.png')
 bulletX = playerX
 bulletY = playerY
 bulletX_change = 0
