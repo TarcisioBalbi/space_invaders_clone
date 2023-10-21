@@ -10,4 +10,4 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desen
 
 # Run
 
-To run the game, excecute the file space_invaders.py
+To run the game, excecute the file `space_invaders.py`
