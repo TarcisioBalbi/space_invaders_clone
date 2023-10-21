@@ -1,13 +1,13 @@
 # Space Invaders Clone
 
-This repository contains a game analogue to Space invaders created with PyGame library.
+This repository contains a game similar to Space Invaders created with the PyGame library.
 
-# Requerimentos
-Certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
+# Requirements
+Make sure you have the following requirements established in your development environment:
 
 - Python 3.8
 - Required libraries can be installed using pip install -r requirements.txt
 
 # Run
 
-To run the game, excecute the file `space_invaders.py`
+To run the game, run the `space_invaders.py` file
